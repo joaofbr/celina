@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400&display=swap');
 
 * {
     margin: 0px;
@@ -29,7 +29,7 @@ body {
     flex-direction: column;
     padding: 100px;
     width: 100%;
-    height: 630px;
+    height: 100%;
     background-color: #00000085;
     position: relative;
 }
@@ -81,6 +81,7 @@ h3 {
 
 .social {
     padding: 20px;
+    padding-top: 25px;
     margin: 10px;
     height: 40%;
     width: 20%;
@@ -153,6 +154,59 @@ h1.tituloT {
     font-size: 2.3rem;
     color: #7d00c5;
     margin-top: 30px;
+}
+
+.ls-collapse {
+    width: 90%;
+    padding: 30px;
+}
+
+.ls-collapse-title {
+    color: #6e00ae;
+    font-size: 1.3rem;
+    border-left: 6px solid #6e00ae;
+    padding: 7px;
+    padding-bottom: 0px;
+    padding-top: 5px;
+}
+
+.ls-theme-gray .ls-collapse .ls-collapse-header::before,
+html .ls-collapse .ls-collapse-header::before {
+    color: #6e00ae;
+    border: 3px solid #6e00ae;
+}
+
+.l1 {
+    padding: 0px;
+    width: 190px;
+    height: 190px;
+    margin-left: 0px;
+    position: relative;
+}
+
+.ls-table {
+    width: 90%;
+}
+
+.ls-steps {
+    width: 90%;
+}
+
+.ls-theme-gray .ls-steps-nav .ls-actived.ls-active .ls-steps-btn::before,
+html .ls-steps-nav .ls-actived.ls-active .ls-steps-btn::before {
+    background: #6b0dbd;
+    border-color: #00000000;
+}
+
+.ls-theme-gray .ls-steps-nav .ls-active .ls-steps-btn:before,
+html .ls-steps-nav .ls-active .ls-steps-btn:before {
+    background: #6b0dbd;
+    border-color: #00000000;
+}
+
+.ls-theme-gray .ls-steps-nav .ls-actived:not(.ls-active):after,
+html .ls-steps-nav .ls-actived:not(.ls-active):after {
+    color: #6b0dbd;
 }
 
 .precos {
@@ -237,31 +291,6 @@ h1.tituloT {
     color: #ffffff;
     font-size: 3.5rem;
 }
-
-.card {
-    width: 70%;
-    padding: 0px;
-    margin-top: 10px;
-}
-
-.card-header,
-.list-group-item {
-    color: #6e00ad;
-}
-
-.btn-primary {
-    width: 30%;
-    margin: 10px;
-    text-align: center;
-    background-color: #7d00c5;
-    border-color: #00000000;
-}
-
-.btn-primary:hover {
-    background-color: #39005a;
-    border-color: #00000000;
-}
-
 
 footer {
     padding: 0px;
@@ -493,5 +522,12 @@ footer {
         width: 90%;
         padding: 9px;
         margin-top: -100px;
+    }
+
+    .ls-collapse-body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 }

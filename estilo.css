@@ -545,9 +545,9 @@ footer {
 
     .social {
         font-size: 0.8rem;
-        height: 20%;
+        height: auto;
         width: 90%;
-        padding: 13.5px;
+        padding: 10px;
         margin-top: 0px;
     }
 

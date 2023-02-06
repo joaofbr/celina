@@ -346,13 +346,12 @@ footer {
     margin-bottom: 0px;
 }
 
-a.linkCop {
+.linkC {
     text-decoration: none;
     color: white;
 }
 
 p.tCop {
-    margin-top: -5px;
     padding-bottom: 10px;
 }
 

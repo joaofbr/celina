@@ -346,13 +346,14 @@ footer {
     margin-bottom: 0px;
 }
 
-.linkC {
+#linkC {
+    color: rgb(255, 255, 255);
     text-decoration: none;
-    color: white;
 }
 
 p.tCop {
-    padding-bottom: 10px;
+    padding-bottom: 20px;
+    margin-top: -10px;
 }
 
 .iContat {

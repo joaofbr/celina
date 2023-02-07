@@ -7,5 +7,5 @@ $('nav a').click(function (e) {
         menuHeight = $('nav').innerHeight();
     $('html, body').animate({
         scrollTop: targetOffset - menuHeight + 30
-    }, 600);
+    }, 100);
 });

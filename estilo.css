@@ -348,12 +348,18 @@ footer {
 
 #linkC {
     color: rgb(255, 255, 255);
-    text-decoration: none;
+    border-bottom: none;
+}
+
+#linkC:hover {
+    transition: 0.3s;
+    color: #ffaa00;
 }
 
 p.tCop {
     padding-bottom: 20px;
     margin-top: -10px;
+    font-size: 0.7rem;
 }
 
 .iContat {
@@ -629,6 +635,12 @@ p.tCop {
 
     .pFooter {
         font-size: 0.8rem;
+    }
+
+    .textT {
+        padding: 5px;
+        font-size: 0.7rem;
+        border-left: 6px solid #7d00c5;
     }
 
 
